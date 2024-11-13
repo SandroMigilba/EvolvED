@@ -69,3 +69,8 @@ canvas {
     max-width: 100%;
     margin-top: 20px;
 }
+@media (width < 768px) {
+    body {
+        font-size: 90%;
+    }
+}
