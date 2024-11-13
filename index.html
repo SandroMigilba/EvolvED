@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <title>EvolvED</title>
+</head>
+<body>
+  <div class="container">
+    <h1>EvolvED</h1>
+    <p>Jawab pertanyaan berikut dengan memilih tingkat kesetujuan Anda.</p>
+
+    <form id="emotionForm">
+      <div id="questions"></div>
+      <button type="button" onclick="calculateEmotion()">Lihat Hasil</button>
+    </form>
+
+    <div class="result" id="result" style="display: none;">
+      <h2>Emosi Anda Saat Ini:</h2>
+      <div id="currentEmotion" class="current-emotion"></div>
+    </div>
+    <canvas id="emotionChart" style="display: none;"></canvas>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: "Montserrat", serif;
+    background-color: #222831;
+    color: #EEEEEE;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 70%;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #393E46;
+    background-color: #222831;
+    padding: 20px;
+    border-radius: 8px;
+}
+h1, h2 {
+    color: #FFD369;
+    font-family: "Audiowide", sans-serif;
+}
+.question-container {
+    margin-bottom: 5vh;
+}
+.question {
+    margin-bottom: 10px;
+    font-weight: bold; /* Teks soal menjadi bold */
+}
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+input[type="radio"] {
+    margin-right: 5px;
+}
+button {
+    background-color: #FFD369;
+    color: #222831;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #FFCE54;
+}
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #393E46;
+    border-left: 4px solid #FFD369;
+    text-align: center;
+}
+.current-emotion {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #FFD369;
+}
+canvas {
+    max-width: 100%;
+    margin-top: 20px;
+}
